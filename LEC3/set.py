@@ -1,0 +1,17 @@
+mark={1,2,3,3,3,4,5,5,8}
+print(mark)
+m1={18,10,7,1,77}
+m2={333,18,23,45}
+print(m1|m2)
+print(m1&m2)
+print(m1-m2)
+print(m2-m1)
+print(m1^m2)
+mark.add(47)
+print(mark)
+mark.update((34,777))
+print(mark)
+marks=mark.copy()
+print(marks)
+marks.discard(34)
+print(marks)
